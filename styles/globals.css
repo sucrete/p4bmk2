@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+.guiderails {
+  border-style: none solid none solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 0.5px;
+  height: 170px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bigdiv {
+  background-color: rgb(233, 231, 216);
+  padding: 4vw;
+  padding-bottom: 0px;
+}
+.bigdiv * {
+  color: black;
+}
+
+u {
+  font-family: "Apple Garamond Italic";
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+}
+
+.descripsh {
+  font-family: "Apple Garamond";
+  font-size: 4.3rem;
+  line-height: 95%;
+  text-align: justify;
+  letter-spacing: -2px;
+  color: black;
+}
+.descripsh--2 {
+  margin-top: 1rem;
+}
+.descripsh .name {
+  float: left;
+  padding-right: 2rem;
+}
+.descripsh .name img {
+  height: 120px;
+  max-width: 100%;
+}
+
+@media (max-width: 850px) {
+  .descripsh .name {
+    padding-right: 0px;
+  }
+}
+.barkport {
+  font-family: "Apple Garamond Italic", sans-serif;
+  margin-right: 3rem;
+}
+.barkport--2 {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detailsContainer .fontsContainer ul li img {
+  height: 80px;
+}
+
+.bskillz {
+  font-family: "Apple Garamond Italic", sans-serif;
+  font-size: 10px;
+  margin-block-end: 0.1rem;
+  margin-block-start: 0.5rem;
+}
+
+.font {
+  cursor: ne-resize;
+  text-decoration: underline;
+}
+
+.fontImage {
+  position: fixed;
+  right: 70px;
+  top: 70px;
+  z-index: 333;
+}
+.fontImage.forma {
+  height: 50px;
+}
+.fontImage.hina {
+  font-family: "Hina Mincho";
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 70%;
+}
+.fontImage.roobert {
+  height: 50px;
+}
+.fontImage.skelter {
+  height: 150px;
+}
+.fontImage.nudge {
+  height: 100px;
+}
+.fontImage.apple {
+  font-size: 4rem;
+  font-family: "Apple Garamond";
+  line-height: 70%;
+}
+
+.pane.cnc .imagesContainer ul li {
+  opacity: 1;
+}
+
+.pane.poly .imagesContainer ul li {
+  opacity: 1;
+}
+
+.bottomdiv {
+  background: rgb(233, 231, 216);
+  min-height: 100vh;
+  padding: 4vw;
+  padding-bottom: 5rem;
+}
+.bottomdiv .recentwork {
+  padding-bottom: 70px;
+  color: black;
+  visibility: hidden;
+}
+
+.pane {
+  width: 100%;
+  height: 70vw;
+  max-width: 100%;
+}
+.pane .imagesContainer {
+  width: 100%;
+  height: 100%;
+}
+.pane .imagesContainer ul {
+  width: 100%;
+}
+.pane .imagesContainer ul li {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  border-radius: 8px;
+}
+.pane .imagesContainer ul li img {
+  width: 100%;
+}
+.pane .caption {
+  font-family: "Apple Garamond";
+}
+
+.liImage:after {
+  font-family: "Melody Regular";
+  letter-spacing: 3px;
+  font-size: 9px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 777;
+}
+
+.calvin .imagesContainer ul .liImage--0 {
+  animation: xfade--cal 15.57s 0s infinite;
+}
+.calvin .imagesContainer ul .liImage--1 {
+  animation: sixNine--cal 0.69s 4.5s forwards, xfade--cal 15.57s 5.19s infinite;
+}
+.calvin .imagesContainer ul .liImage--2 {
+  animation: sixNine--cal 0.69s 9.69s forwards, xfade--cal 15.57s 10.38s infinite;
+}
+@keyframes xfade--cal {
+  0% {
+    opacity: 1;
+  }
+  28.901734104% {
+    opacity: 1;
+  }
+  33.3333333333% {
+    opacity: 0;
+  }
+  95.5684007707% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--cal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.calvin .imagesContainer ul li.liImage--0:after {
+  content: "1/3";
+}
+.calvin .imagesContainer ul li.liImage--1:after {
+  content: "2/3";
+}
+.calvin .imagesContainer ul li.liImage--2:after {
+  content: "3/3";
+}
+
+.votr {
+  margin-top: 30px;
+}
+.votr .imagesContainer ul .liImage--0 {
+  animation: xfade--votr 10.38s 0s infinite;
+}
+.votr .imagesContainer ul .liImage--1 {
+  animation: sixNine--votr 0.69s 4.5s forwards, xfade--votr 10.38s 5.19s infinite;
+}
+@keyframes xfade--votr {
+  0% {
+    opacity: 1;
+  }
+  43.3526011561% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  93.3526011561% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--votr {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.votr .imagesContainer ul li.liImage--0:after {
+  content: "1/2";
+}
+.votr .imagesContainer ul li.liImage--1:after {
+  content: "2/2";
+}
+
+.rosehill .imagesContainer ul .liImage--0 {
+  animation: xfade--rose 15.57s 0s infinite;
+}
+.rosehill .imagesContainer ul .liImage--1 {
+  animation: sixNine--rose 0.69s 4.5s forwards, xfade--rose 15.57s 5.19s infinite;
+}
+.rosehill .imagesContainer ul .liImage--2 {
+  animation: sixNine--rose 0.69s 9.69s forwards, xfade--rose 15.57s 10.38s infinite;
+}
+@keyframes xfade--rose {
+  0% {
+    opacity: 1;
+  }
+  28.901734104% {
+    opacity: 1;
+  }
+  33.3333333333% {
+    opacity: 0;
+  }
+  95.5684007707% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--rose {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.rosehill .imagesContainer ul li img {
+  border-radius: 10px;
+}
+.rosehill .imagesContainer ul li.liImage--0:after {
+  content: "1/3";
+}
+.rosehill .imagesContainer ul li.liImage--1:after {
+  content: "2/3";
+}
+.rosehill .imagesContainer ul li.liImage--2:after {
+  content: "3/3";
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("/AppleGaramond-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Apple Garamond Italic";
+  src: url("/AppleGaramond-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Melody Regular";
+  src: url("/BLMelody-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "GT America Exp Bold";
+  src: url("/GT-America-Expanded-Bold-Trial.otf") format("opentype");
+}
+/*Saans font registry*/
+@font-face {
+  font-family: "Saans";
+  src: url("/Saans.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Italic";
+  src: url("/Saans-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Light";
+  src: url("/Saans-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Light Italic";
+  src: url("/Saans-LightItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Med";
+  src: url("/Saans-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Med Italic";
+  src: url("/Saans-MediumItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Semi-Bold";
+  src: url("/Saans-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Semi-Bold Italic";
+  src: url("/Saans-SemiBoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Bold";
+  src: url("/Saans-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Bold Italic";
+  src: url("/Saans-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Heavy";
+  src: url("/Saans-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Heavy Italic";
+  src: url("/Saans-HeavyItalic.otf") format("opentype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(233, 231, 216);
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=globals.css.map */

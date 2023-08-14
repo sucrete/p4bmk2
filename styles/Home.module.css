@@ -1,0 +1,25 @@
+
+
+
+.container {
+  /* padding: 0 2rem; */
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title,
+.description {
+  /* text-align: center; */
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
+@mixin slideShow($slideNumber, $uniqueName) {
+  // time = total animation time
+  // time = (a+b) * n
+  // where:
+  // a = presentation time for each slide
+  // n = number of slides
+  // b = duration of crossfade
+  // delay = a+b
+  $n: $slideNumber + 1;
+  $time: ($n * 1s) * (5.19);
+  $t: ($n * 1) * (5.19);
+  // _2 = percentage where last of full visibility starts to transition
+  // to invisible based on number of slides/parameters
+  // _3 = end of transition to invisible
+  // _4 = start of transition to visible again
+  $_2: calc(4.5 / $t) * 100%;
+  $_3: calc(1 / $n) * 100%;
+  $_4: 100% - calc(0.69 / $t * 100%);
+
+  @for $i from 0 through $slideNumber {
+    $delay: $i * 5.19s;
+
+    @if $i ==0 {
+      .liImage--#{$i} {
+        animation: xfade--#{$uniqueName} $time $delay infinite;
+      }
+    } @else {
+      $incrementer: $i - 1;
+      $buffer: $incrementer * 5.19s;
+      $_69delay: $buffer + 4.5s;
+
+      .liImage--#{$i} {
+        animation: sixNine--#{$uniqueName} 0.69s $_69delay forwards,
+          xfade--#{$uniqueName} $time $delay infinite;
+      }
+    }
+  }
+
+  @keyframes xfade--#{$uniqueName} {
+    0% {
+      opacity: 1;
+    }
+
+    #{$_2} {
+      opacity: 1;
+    }
+
+    #{$_3} {
+      opacity: 0;
+    }
+
+    #{$_4} {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes sixNine--#{$uniqueName} {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.guiderails {
+  border-style: none solid none solid;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 0.5px;
+  height: 170px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bigdiv {
+  background-color: rgb(233, 231, 216);
+  padding: 4vw;
+  padding-bottom: 0px;
+  & * {
+    color: black;
+  }
+}
+
+u {
+  font-family: "Apple Garamond Italic";
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+}
+
+.descripsh {
+  font-family: "Apple Garamond";
+  font-size: 4.3rem;
+  line-height: 95%;
+  text-align: justify;
+  letter-spacing: -2px;
+  color: black;
+
+  &--2 {
+    margin-top: 1rem;
+  }
+
+  .name {
+    float: left;
+    padding-right: 2rem;
+
+    img {
+      height: 120px;
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .descripsh .name {
+    padding-right: 0px;
+  }
+}
+
+.barkport {
+  font-family: "Apple Garamond Italic", sans-serif;
+  margin-right: 3rem;
+
+  // text-decoration: underline;
+  &--2 {
+    color: black;
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .fontsContainer {
+    ul {
+      li {
+        img {
+          height: 80px;
+        }
+      }
+    }
+  }
+}
+
+.bskillz {
+  font-family: "Apple Garamond Italic", sans-serif;
+  font-size: 10px;
+  margin-block-end: 0.1rem;
+  margin-block-start: 0.5rem;
+}
+
+.font {
+  cursor: ne-resize;
+  text-decoration: underline;
+}
+
+.fontImage {
+  position: fixed;
+  right: 70px;
+  top: 70px;
+  z-index: 333;
+
+  &.forma {
+    height: 50px;
+  }
+
+  &.hina {
+    font-family: "Hina Mincho";
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 70%;
+  }
+
+  &.roobert {
+    height: 50px;
+  }
+
+  &.skelter {
+    height: 150px;
+  }
+
+  &.nudge {
+    height: 100px;
+  }
+
+  &.apple {
+    font-size: 4rem;
+    font-family: "Apple Garamond";
+    line-height: 70%;
+  }
+}
+
+.pane.cnc {
+  .imagesContainer {
+    ul {
+      li {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.pane.poly {
+  .imagesContainer {
+    ul {
+      li {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.bottomdiv {
+  background: rgb(233, 231, 216);
+  min-height: 100vh;
+  padding: 4vw;
+  padding-bottom: 5rem;
+
+  .recentwork {
+    padding-bottom: 70px;
+    color: black;
+    visibility: hidden;
+  }
+}
+
+.pane {
+  width: 100%;
+  height: 70vw;
+  max-width: 100%;
+  .imagesContainer {
+    width: 100%;
+    height: 100%;
+
+    ul {
+      width: 100%;
+
+      li {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        border-radius: 8px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .caption {
+    font-family: "Apple Garamond";
+  }
+}
+
+.liImage:after {
+  font-family: "Melody Regular";
+  letter-spacing: 3px;
+  font-size: 9px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 777;
+}
+
+.calvin {
+  .imagesContainer {
+    ul {
+      @include slideShow(2, "cal");
+
+      li {
+        &.liImage--0:after {
+          content: "1/3";
+        }
+
+        &.liImage--1:after {
+          content: "2/3";
+        }
+
+        &.liImage--2:after {
+          content: "3/3";
+        }
+      }
+    }
+  }
+}
+
+.votr {
+  margin-top: 30px;
+
+  .imagesContainer {
+    ul {
+      @include slideShow(1, "votr");
+
+      li {
+        &.liImage--0:after {
+          content: "1/2";
+        }
+
+        &.liImage--1:after {
+          content: "2/2";
+        }
+      }
+    }
+  }
+}
+
+.rosehill {
+  .imagesContainer {
+    ul {
+      @include slideShow(2, "rose");
+
+      li {
+        img {
+          border-radius: 10px;
+        }
+      }
+
+      li {
+        &.liImage--0:after {
+          content: "1/3";
+        }
+
+        &.liImage--1:after {
+          content: "2/3";
+        }
+
+        &.liImage--2:after {
+          content: "3/3";
+        }
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("/AppleGaramond-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Apple Garamond Italic";
+  src: url("/AppleGaramond-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Melody Regular";
+  src: url("/BLMelody-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GT America Exp Bold";
+  src: url("/GT-America-Expanded-Bold-Trial.otf") format("opentype");
+}
+
+/*Saans font registry*/
+@font-face {
+  font-family: "Saans";
+  src: url("/Saans.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Italic";
+  src: url("/Saans-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Light";
+  src: url("/Saans-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Light Italic";
+  src: url("/Saans-LightItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Med";
+  src: url("/Saans-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Med Italic";
+  src: url("/Saans-MediumItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Semi-Bold";
+  src: url("/Saans-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Semi-Bold Italic";
+  src: url("/Saans-SemiBoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Bold";
+  src: url("/Saans-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Bold Italic";
+  src: url("/Saans-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Heavy";
+  src: url("/Saans-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Saans Heavy Italic";
+  src: url("/Saans-HeavyItalic.otf") format("opentype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(233, 231, 216);
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
