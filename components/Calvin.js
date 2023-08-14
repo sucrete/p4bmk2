@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const slides = [
-  <Image src="/calloval2.png" key="first" alt="" height={984} width={1312} />,
-  <Image src="/calbeats2.png" key="second" alt="" height={984} width={1312} />,
+  <Image src="/calloval2.png" key="first" alt="" height={1350} width={1800} />,
+  <Image src="/calbeats2.png" key="second" alt="" height={1350} width={1800} />,
   <Image
     src="/calvinstandsalone2.png"
     key="third"
     alt=""
-    height={984}
-    width={1312}
+    height={1350}
+    width={1800}
   />,
 ];
 

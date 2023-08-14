@@ -7,7 +7,7 @@ export default function Poly() {
         <div className="imagesContainer">
           <ul>
             <li>
-              <Image src="/poly.svg" alt="" height={984} width={1312} />
+              <Image src="/poly.svg" alt="" height={1350} width={1800} />
             </li>
           </ul>
         </div>

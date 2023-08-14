@@ -6,22 +6,22 @@ const slides = [
     src="/rosehilllogo.png"
     key="first"
     alt=""
-    height={984}
-    width={1312}
+    height={1350}
+    width={1800}
   />,
   <Image
     src="/rosehillwbg2.png"
     key="second"
     alt=""
-    height={984}
-    width={1312}
+    height={1350}
+    width={1800}
   />,
   <Image
     src="/rosehillwbadge.png"
     key="third"
     alt=""
-    height={984}
-    width={1312}
+    height={1350}
+    width={1800}
   />,
 ];
 
@@ -41,7 +41,7 @@ export default function Rosehill() {
           <ul>{imageSlides}</ul>
         </div>
         <span className="caption">
-          Assets for garden{" "}
+          Assets for garden
           <Link href="www.rosehillgardens.com" passHref={true}>
             <u>Rosehill Gardens</u>
           </Link>
