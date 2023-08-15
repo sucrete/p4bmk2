@@ -85,13 +85,17 @@ export default function Home() {
               <Image
                 src="/namespace.svg"
                 alt="portfolio owner name logo"
-                width={586}
-                height={120}
+                width={342}
+                height={70}
               />
             </span>
-            <div className="barkFloat barkFloat--2">Portfolio</div>
+
+            <div className="barkFloat barkFloat--1">
+              <Image src="/BarkPortDGreen.svg" alt="" width={300} height={79} />
+            </div>
+
             <div className="arrow">
-              <Image src="/arrow.png" alt="" width={516} height={516} />
+              <Image src="/arrow.png" alt="" width={200} height={200} />
             </div>
           </div>
           <div className="descripsh">
