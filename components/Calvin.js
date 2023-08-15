@@ -28,7 +28,7 @@ export default function Calvin() {
           <ul>{imageSlides}</ul>
         </div>
         <span className="caption">
-          Assets for singer and professional southwestern person, Calvin Todd
+          Assets for singer and professional Southwestern person, Calvin Todd
         </span>
       </div>
     </>

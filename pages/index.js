@@ -51,25 +51,54 @@ export default function Home() {
 
       <main className={styles.main}>
         {isShownForma && (
-          <img className="fontImage forma" src="/FormaFont.svg" />
+          <Image
+            className="fontImage forma"
+            src="/FormaFont.svg"
+            alt=""
+            width={267}
+            height={75}
+          />
         )}
         {isShownHina && <span className="fontImage hina">Hina Mincho</span>}
         {isShownApple && (
           <span className="fontImage apple">Apple Garamond</span>
         )}
         {isShownSkelter && (
-          <img className="fontImage skelter" src="/SkelterFont.svg" />
+          <Image
+            className="fontImage skelter"
+            src="/SkelterFont.svg"
+            alt=""
+            width={116}
+            height={136}
+          />
         )}
         {isShownRoobert && (
-          <img className="fontImage roobert" src="/RoobertFont.svg" />
+          <Image
+            className="fontImage roobert"
+            src="/RoobertFont.svg"
+            alt=""
+            width={471}
+            height={100}
+          />
         )}
         {isShownNudge && (
-          <img className="fontImage nudge" src="/NudgeFont.svg" />
+          <Image
+            className="fontImage nudge"
+            src="/NudgeFont.svg"
+            alt=""
+            width={135}
+            height={65}
+          />
         )}
         <div className="bigdiv">
           <div className="descripsh">
             <span className="name">
-              <img src="/namespace.png" />
+              <Image
+                src="/namespace.svg"
+                alt="portfolio owner name logo"
+                width={586}
+                height={120}
+              />
             </span>
             Mr. Collins, meanwhile, was meditating in solitude on what had
             passed. He thought too well of himself to comprehend on what motives

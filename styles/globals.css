@@ -326,10 +326,6 @@ a {
   font-family: "Melody Regular";
   src: url("/BLMelody-Regular.otf") format("opentype");
 }
-@font-face {
-  font-family: "GT America Exp Bold";
-  src: url("/GT-America-Expanded-Bold-Trial.otf") format("opentype");
-}
 /*Saans font registry*/
 @font-face {
   font-family: "Saans";
