@@ -98,19 +98,7 @@ export default function Home() {
               <Image src="/arrow.png" alt="" width={200} height={200} />
             </div>
           </div>
-          <div className="descripsh">
-            Mr. Collins, meanwhile, was meditating in solitude on what had
-            passed. He thought too well of himself to comprehend on what motives
-            his cousin could refuse him; and though his pride was hurt, he
-            suffered in no other way. His regard for her was quite imaginary;
-            and the possibility of her deserving her mother’s reproach prevented
-            his feeling any regret. While the family were in this confusion,
-            Charlotte Lucas came to spend the day with them. She was met in the
-            vestibule by Lydia, who, flying to her, cried in a half whisper, “I
-            am glad you are come, for there is such fun here! What do you think
-            has happened this morning? Mr. Collins has made an offer to Lizzy,
-            and she will not have him.”
-          </div>
+          <div className="descripsh"></div>
         </div>
         <section className="bottomdiv">
           <Calvin />
@@ -123,6 +111,12 @@ export default function Home() {
         </section>
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">
+            <div>
+              Hi, Barkley! :^&#41; I&apos;ve been looking forward to applying
+              for a position with you for a long time. If it is possible to know
+              someone by their influences, here are a few of mine →
+              architecture,
+            </div>
             <div className="skillsContainer subcontainer">
               <h3 className="bskillz">skillz</h3>
               <ul>

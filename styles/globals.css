@@ -26,7 +26,7 @@ a {
   color: black;
 }
 .bigdiv .topBox {
-  height: 100vh;
+  height: 90vh;
 }
 .bigdiv .topBox .name {
   float: left;
@@ -101,7 +101,6 @@ a {
 
 .bskillz {
   font-family: "Apple Garamond Italic", sans-serif;
-  font-size: 10px;
   margin-block-end: 0.1rem;
   margin-block-start: 0.5rem;
 }
