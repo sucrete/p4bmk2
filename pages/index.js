@@ -1,12 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+
 import styles from "../styles/Home.module.css";
+
 import Calvin from "../components/Calvin";
 import Votr from "../components/Votr";
 import CnC from "../components/CnC";
 import Poly from "../components/Poly";
 import Rosehill from "../components/Rosehill";
+import Norman from "../components/Norman";
+import Handful from "../components/Handful";
 
 export default function Home() {
   const [isShownForma, setIsShownForma] = useState(false);
@@ -51,47 +55,32 @@ export default function Home() {
 
       <main className={styles.main}>
         {isShownForma && (
-          <Image
-            className="fontImage forma"
-            src="/FormaFont.svg"
-            alt=""
-            width={267}
-            height={75}
-          />
+          <div className="fontImage forma">
+            <Image src="/FormaFont.png" alt="" width={267} height={75} />
+          </div>
         )}
         {isShownHina && <span className="fontImage hina">Hina Mincho</span>}
         {isShownApple && (
           <span className="fontImage apple">Apple Garamond</span>
         )}
         {isShownSkelter && (
-          <Image
-            className="fontImage skelter"
-            src="/SkelterFont.svg"
-            alt=""
-            width={116}
-            height={136}
-          />
+          <div className="fontImage skelter">
+            <Image src="/SkelterFont.png" alt="" width={116} height={136} />
+          </div>
         )}
         {isShownRoobert && (
-          <Image
-            className="fontImage roobert"
-            src="/RoobertFont.svg"
-            alt=""
-            width={471}
-            height={100}
-          />
+          <div className="fontImage roobert">
+            <Image src="/RoobertFont.png" alt="" width={471} height={100} />
+          </div>
         )}
+
         {isShownNudge && (
-          <Image
-            className="fontImage nudge"
-            src="/NudgeFont.svg"
-            alt=""
-            width={135}
-            height={65}
-          />
+          <div className="fontImage nudge">
+            <Image src="/NudgeFont.svg" alt="" width={135} height={65} />
+          </div>
         )}
         <div className="bigdiv">
-          <div className="descripsh">
+          <div className="topBox">
             <span className="name">
               <Image
                 src="/namespace.svg"
@@ -100,6 +89,9 @@ export default function Home() {
                 height={120}
               />
             </span>
+            <div></div>
+          </div>
+          <div className="descripsh">
             Mr. Collins, meanwhile, was meditating in solitude on what had
             passed. He thought too well of himself to comprehend on what motives
             his cousin could refuse him; and though his pride was hurt, he
@@ -115,30 +107,12 @@ export default function Home() {
         </div>
         <section className="bottomdiv">
           <Calvin />
-          <br />
-          <br />
-          <br />
-          <br />
           <CnC />
-          <br />
-          <br />
-          <br />
-          <br />
           <Votr />
-          <br />
-          <br />
-          <br />
-          <br />
           <Rosehill />
-          <br />
-          <br />
-          <br />
-          <br />
           <Poly />
-          <br />
-          <br />
-          <br />
-          <br />
+          <Handful />
+          <Norman />
         </section>
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">

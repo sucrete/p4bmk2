@@ -11,7 +11,7 @@ export default function CnC() {
           </ul>
         </div>
         <span className="caption">
-          Typesetting for independent Kansas City publication{" "}
+          Typesetting for independent Kansas City publication,{" "}
           <u>The City And The City</u>. Fonts → IvyPresto, Nudge, Apple Garamond
         </span>
       </div>

@@ -25,6 +25,17 @@ a {
 .bigdiv * {
   color: black;
 }
+.bigdiv .topBox {
+  height: 100vh;
+}
+.bigdiv .topBox .name {
+  float: left;
+  padding-right: 2rem;
+}
+.bigdiv .topBox .name img {
+  height: 120px;
+  max-width: 100%;
+}
 
 u {
   font-family: "Apple Garamond Italic";
@@ -39,23 +50,16 @@ ul {
 }
 
 .descripsh {
-  font-family: "Apple Garamond";
-  font-size: 4.3rem;
-  line-height: 95%;
+  font-family: "Saans Light";
+  font-size: 4vw;
   text-align: justify;
-  letter-spacing: -2px;
   color: black;
+}
+.descripsh:first-child {
+  padding-bottom: 20px;
 }
 .descripsh--2 {
   margin-top: 1rem;
-}
-.descripsh .name {
-  float: left;
-  padding-right: 2rem;
-}
-.descripsh .name img {
-  height: 120px;
-  max-width: 100%;
 }
 
 @media (max-width: 850px) {
@@ -112,9 +116,6 @@ a {
   text-transform: uppercase;
   line-height: 70%;
 }
-.fontImage.roobert {
-  height: 50px;
-}
 .fontImage.skelter {
   height: 150px;
 }
@@ -140,6 +141,7 @@ a {
   min-height: 100vh;
   padding: 4vw;
   padding-bottom: 5rem;
+  padding-top: 2vw;
 }
 .bottomdiv .recentwork {
   padding-bottom: 70px;
@@ -151,10 +153,14 @@ a {
   width: 100%;
   height: 69.5vw;
   max-width: 100%;
+  margin-bottom: 5vw;
 }
 .pane .imagesContainer {
   width: 100%;
   height: 100%;
+}
+.pane .imagesContainer ul li {
+  border-radius: 10px;
 }
 .pane .imagesContainer ul {
   width: 100%;
@@ -167,6 +173,7 @@ a {
 }
 .pane .imagesContainer ul li img {
   width: 100%;
+  border-radius: 10px;
 }
 .pane .caption {
   font-family: "Apple Garamond";
@@ -223,6 +230,50 @@ a {
   content: "2/3";
 }
 .calvin .imagesContainer ul li.liImage--2:after {
+  content: "3/3";
+}
+
+.norm .imagesContainer ul .liImage--0 {
+  animation: xfade--norman 15.57s 0s infinite;
+}
+.norm .imagesContainer ul .liImage--1 {
+  animation: sixNine--norman 0.69s 4.5s forwards, xfade--norman 15.57s 5.19s infinite;
+}
+.norm .imagesContainer ul .liImage--2 {
+  animation: sixNine--norman 0.69s 9.69s forwards, xfade--norman 15.57s 10.38s infinite;
+}
+@keyframes xfade--norman {
+  0% {
+    opacity: 1;
+  }
+  28.901734104% {
+    opacity: 1;
+  }
+  33.3333333333% {
+    opacity: 0;
+  }
+  95.5684007707% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--norman {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.norm .imagesContainer ul li.liImage--0:after {
+  content: "1/3";
+}
+.norm .imagesContainer ul li.liImage--1:after {
+  content: "2/3";
+}
+.norm .imagesContainer ul li.liImage--2:after {
   content: "3/3";
 }
 
@@ -312,6 +363,71 @@ a {
 }
 .rosehill .imagesContainer ul li.liImage--2:after {
   content: "3/3";
+}
+
+.handful .imagesContainer ul .liImage--0 {
+  animation: xfade--hand 31.14s 0s infinite;
+}
+.handful .imagesContainer ul .liImage--1 {
+  animation: sixNine--hand 0.69s 4.5s forwards, xfade--hand 31.14s 5.19s infinite;
+}
+.handful .imagesContainer ul .liImage--2 {
+  animation: sixNine--hand 0.69s 9.69s forwards, xfade--hand 31.14s 10.38s infinite;
+}
+.handful .imagesContainer ul .liImage--3 {
+  animation: sixNine--hand 0.69s 14.88s forwards, xfade--hand 31.14s 15.57s infinite;
+}
+.handful .imagesContainer ul .liImage--4 {
+  animation: sixNine--hand 0.69s 20.07s forwards, xfade--hand 31.14s 20.76s infinite;
+}
+.handful .imagesContainer ul .liImage--5 {
+  animation: sixNine--hand 0.69s 25.26s forwards, xfade--hand 31.14s 25.95s infinite;
+}
+@keyframes xfade--hand {
+  0% {
+    opacity: 1;
+  }
+  14.450867052% {
+    opacity: 1;
+  }
+  16.6666666667% {
+    opacity: 0;
+  }
+  97.7842003854% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--hand {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.handful .imagesContainer ul li img {
+  border-radius: 10px;
+}
+.handful .imagesContainer ul li.liImage--0:after {
+  content: "1/6";
+}
+.handful .imagesContainer ul li.liImage--1:after {
+  content: "2/6";
+}
+.handful .imagesContainer ul li.liImage--2:after {
+  content: "3/6";
+}
+.handful .imagesContainer ul li.liImage--3:after {
+  content: "4/6";
+}
+.handful .imagesContainer ul li.liImage--4:after {
+  content: "5/6";
+}
+.handful .imagesContainer ul li.liImage--5:after {
+  content: "6/6";
 }
 
 @font-face {

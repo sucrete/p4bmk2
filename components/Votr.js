@@ -13,7 +13,7 @@ const slides = [
 
 const imageSlides = slides.map((slide, index) => {
   return (
-    <li key={`imagesforCal--${index}`} className={`liImage liImage--${index}`}>
+    <li key={`imagesforVotr--${index}`} className={`liImage liImage--${index}`}>
       {slide}
     </li>
   );

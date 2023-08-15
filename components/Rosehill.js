@@ -41,10 +41,8 @@ export default function Rosehill() {
           <ul>{imageSlides}</ul>
         </div>
         <span className="caption">
-          Assets for garden
-          <Link href="www.rosehillgardens.com" passHref={true}>
-            <u>Rosehill Gardens</u>
-          </Link>
+          Work from a larger logo and website redesign for{" "}
+          <u>Rosehill Gardens</u>
         </span>
       </div>
     </>
