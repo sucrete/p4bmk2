@@ -100,12 +100,30 @@ a {
     height: 100vh;
     .name {
       float: left;
-      padding-right: 2rem;
-
       img {
         height: 120px;
         max-width: 100%;
       }
+    }
+    .barkFloat {
+      position: absolute;
+      font-family: "Saans Med";
+      font-size: 6rem;
+      line-height: 6vw;
+      // &--1 {
+      //   top: 37%;
+      //   right: 11vw;
+      // }
+      &--2 {
+        top: 29vw;
+        right: 4vw;
+      }
+    }
+    .arrow {
+      position: absolute;
+      bottom: 0px;
+      left: 3.7vw;
+      width: 120px;
     }
   }
 }

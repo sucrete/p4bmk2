@@ -89,7 +89,10 @@ export default function Home() {
                 height={120}
               />
             </span>
-            <div></div>
+            <div className="barkFloat barkFloat--2">Portfolio</div>
+            <div className="arrow">
+              <Image src="/arrow.png" alt="" width={516} height={516} />
+            </div>
           </div>
           <div className="descripsh">
             Mr. Collins, meanwhile, was meditating in solitude on what had
