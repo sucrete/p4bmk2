@@ -135,10 +135,12 @@ ul {
   padding-inline-start: 0px;
   margin-block-start: 0px;
 }
-
+._1 {
+  font-family: "Apple Garamond Italic";
+}
 .descripsh {
   font-family: "Saans Light";
-  font-size: 4vw;
+  font-size: 3vw;
   // line-height: 105%;
   text-align: justify;
   // letter-spacing: -2px;
@@ -254,6 +256,7 @@ a {
     }
   }
 }
+
 a {
   text-decoration-color: #88a691;
   transition: all 0.3s ease;

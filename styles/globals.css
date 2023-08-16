@@ -65,9 +65,13 @@ ul {
   margin-block-start: 0px;
 }
 
+._1 {
+  font-family: "Apple Garamond Italic";
+}
+
 .descripsh {
   font-family: "Saans Light";
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: justify;
   color: black;
 }

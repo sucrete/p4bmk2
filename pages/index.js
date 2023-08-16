@@ -114,7 +114,11 @@ export default function Home() {
         <hr />
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">
-            <div>Hi, Barkley! Thank you for looking over some of my work.</div>
+            <div>
+              <span className="_1">Hi, Barkley!</span> Thank you for looking
+              over some of my work.
+            </div>
+            <br />
             <br />
             <div>
               {" "}
@@ -126,73 +130,61 @@ export default function Home() {
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
+              <Link href="https://portorocha.com/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Porto Rocha
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
+              <Link href="https://www.instagram.com/haleywollens" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Haley Wollens
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
+              <Link href="https://staffansundstrom.com/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                  Thibaud Allie
+                  Staffan Sundström
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
+              <Link href="https://www.instagram.com/trvsbrthrs/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Travis Brothers
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://nicksherman.com/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Nick Sherman
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
+              <Link href="https://www.instagram.com/jamesharrenart/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   James Harren
                 </a>
               </Link>
               ,{" "}
-              <Link href="https://tmthyl.uk/" passHref>
-                <a target="_blank" rel="noopener noreferrer">
-                  Austin Lee
-                </a>
-              </Link>
-              ,{" "}
-              <Link
-                href="https://www.instagram.com/specialoffer.inc/?hl=en"
-                passHref
-              >
+              <Link href="https://www.instagram.com/specialoffer.inc/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Special Offer, inc.
                 </a>
               </Link>{" "}
               {"("}helmed by Brent David Frealy{")"},{" "}
-              <Link
-                href="https://www.instagram.com/specialoffer.inc/?hl=en"
-                passHref
-              >
+              <Link href="https://www.instagram.com/danielsannwald/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Daniel Sannwald
                 </a>
               </Link>
               ,{" "}
-              <Link
-                href="https://www.instagram.com/specialoffer.inc/?hl=en"
-                passHref
-              >
+              <Link href="https://vimeo.com/586419209" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Daniel Swan
                 </a>
               </Link>
               ,{" "}
-              <Link
-                href="https://www.instagram.com/specialoffer.inc/?hl=en"
-                passHref
-              >
+              <Link href="https://www.instagram.com/wiissa" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Wiissa
                 </a>
@@ -281,25 +273,6 @@ export default function Home() {
                   onMouseLeave={index.nudge.nay}
                 >
                   Nudge
-                </li>
-              </ul>
-              <h3 className="bskillz" style={{ marginBlockStart: "1rem" }}>
-                favorite designers
-              </h3>
-              <ul>
-                <li>
-                  <a href="http://tmthyl.uk/" target="_blank" rel="noreferrer">
-                    Timothy Luke
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/d_a_n_i_e_l_s_w_a_n/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Daniel Swan
-                  </a>
                 </li>
               </ul>
             </div>
