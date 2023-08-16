@@ -115,15 +115,14 @@ export default function Home() {
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">
             <div>
-              <span className="_1">Hi, Barkley!</span> Thank you for looking
-              over some of my work.
-            </div>
-            <br />
-            <br />
-            <div>
-              {" "}
-              If it{"'"}s possible to know someone by what they love, here are a
-              few of my favorite artists/designers/firms →{" "}
+              <span className="_1">Hi, Barkley!</span> Thank you for viewing
+              some of my work. I{"'"}ve wanted to apply for a position with
+              Barkley when I had some work I was proud to present. A short{" "}
+              <span className="_1">About me </span>→ I{"'"}m nothing if not
+              detailed, eschew always on the hunt for affecting experiences.{" "}
+              <br />
+              <br /> If it{"'"}s possible to know someone better by what they
+              love, here are a few of my favorite artists/designers/firms →{" "}
               <Link href="https://tmthyl.uk/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Timothy Luke
@@ -171,7 +170,13 @@ export default function Home() {
                   Special Offer, inc.
                 </a>
               </Link>{" "}
-              {"("}helmed by Brent David Frealy{")"},{" "}
+              {"("}helmed by{" "}
+              <Link href="https://brentdavidfreaney.com/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Brent David Freaney
+                </a>
+              </Link>
+              {")"},{" "}
               <Link href="https://www.instagram.com/danielsannwald/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Daniel Sannwald
@@ -189,93 +194,70 @@ export default function Home() {
                   Wiissa
                 </a>
               </Link>
-              , ...the list goes on and on.
+              , ...the list goes on. Fonts I love →{" "}
+              <span
+                className="roobert font"
+                onMouseEnter={index.roobert.yay}
+                onMouseLeave={index.roobert.nay}
+              >
+                Roobert
+              </span>
+              ,{" "}
+              <span
+                className="america font"
+                onMouseEnter={index.hina.yay}
+                onMouseLeave={index.hina.nay}
+              >
+                Hina Mincho
+              </span>
+              ,{" "}
+              <span
+                className="skelter font"
+                onMouseEnter={index.skelter.yay}
+                onMouseLeave={index.skelter.nay}
+              >
+                Skelter
+              </span>
+              ,{" "}
+              <span
+                className="forma font"
+                onMouseEnter={index.forma.yay}
+                onMouseLeave={index.forma.nay}
+              >
+                Forma
+              </span>
+              ,{" "}
+              <span
+                className="forma font"
+                onMouseEnter={index.apple.yay}
+                onMouseLeave={index.apple.nay}
+              >
+                Apple Garamond
+              </span>
+              ,{" "}
+              <span
+                className="forma font"
+                onMouseEnter={index.nudge.yay}
+                onMouseLeave={index.nudge.nay}
+              >
+                Nudge
+              </span>
+              .
             </div>
             <br />
-            <div className="skillsContainer subcontainer">
-              <h3 className="bskillz">skillz</h3>
-              <ul>
-                <li>Graphic Design</li>
-                <li>User Experience Design</li>
-                <li>Trend Forecasting</li>
-                <li>Logo Design</li>
-                <li>
-                  Web Development <br />
-                  <span>⬝ JavaScript</span>
-                  <br />
-                  <span>⬝ HTML/CSS</span>
-                  <br />
-                  <span>⬝ Sass</span>
-                  <br />
-                  <span>⬝ React</span>
-                  <br />
-                  <span>⬝ Express</span>
-                  <br />
-                  <span>⬝ Node</span>
-                  <br />
-                  <span>⬝ Wordpress Development</span>
-                  <br />
-                  <span>⬝ Git</span>
-                </li>
-              </ul>
+            <div>
+              <span className="_1">Skills</span> → Graphic Design, User
+              Experience Design, Logo Design, Trend Forecasting, Advanced
+              Prototyping, Web Development {"("}Javascript/HTML/CSS/Sass, React,
+              Wordpress Development{")"}
             </div>
-            <div className="businessContainer subcontainer">
-              <div className="skillsContainer subcontainer">
-                <h3 className="bskillz">tech</h3>
-                <ul>
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
-                  <li>Visual Studio</li>
-                </ul>
-              </div>
+            <br />
+            <div>
+              <span className="_1">Tech</span> → Illustrator, Photoshop, Figma,
+              VS Code
             </div>
-            <div className="skillsContainer subcontainer">
-              <h3 className="bskillz">Fonts I ❤</h3>
-              <ul>
-                <li
-                  className="roobert font"
-                  onMouseEnter={index.roobert.yay}
-                  onMouseLeave={index.roobert.nay}
-                >
-                  Roobert
-                </li>
-                <li
-                  className="america font"
-                  onMouseEnter={index.hina.yay}
-                  onMouseLeave={index.hina.nay}
-                >
-                  Hina Mincho
-                </li>
-                <li
-                  className="skelter font"
-                  onMouseEnter={index.skelter.yay}
-                  onMouseLeave={index.skelter.nay}
-                >
-                  Skelter
-                </li>
-                <li
-                  className="forma font"
-                  onMouseEnter={index.forma.yay}
-                  onMouseLeave={index.forma.nay}
-                >
-                  Forma
-                </li>
-                <li
-                  className="forma font"
-                  onMouseEnter={index.apple.yay}
-                  onMouseLeave={index.apple.nay}
-                >
-                  Apple Garamond
-                </li>
-                <li
-                  className="forma font"
-                  onMouseEnter={index.nudge.yay}
-                  onMouseLeave={index.nudge.nay}
-                >
-                  Nudge
-                </li>
-              </ul>
-            </div>
+            <br />
+
             <div className="businessContainer subcontainer">
               <h3 className="bskillz">business</h3>
               <ul>

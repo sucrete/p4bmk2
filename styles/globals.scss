@@ -137,6 +137,7 @@ ul {
 }
 ._1 {
   font-family: "Apple Garamond Italic";
+  font-size: 3.3vw;
 }
 .descripsh {
   font-family: "Saans Light";
@@ -161,8 +162,6 @@ ul {
 .barkport {
   font-family: "Apple Garamond Italic", sans-serif;
   margin-right: 3rem;
-
-  // text-decoration: underline;
   &--2 {
     color: black;
   }
@@ -173,11 +172,6 @@ a {
 }
 
 .detailsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-
   .fontsContainer {
     ul {
       li {
@@ -198,6 +192,10 @@ a {
 .font {
   cursor: ne-resize;
   text-decoration: underline;
+  text-decoration-color: #88a691;
+  &:hover {
+    text-decoration-color: black;
+  }
 }
 
 .fontImage {
@@ -259,7 +257,6 @@ a {
 
 a {
   text-decoration-color: #88a691;
-  transition: all 0.3s ease;
   &:hover {
     text-decoration-color: black;
   }

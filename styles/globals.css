@@ -67,6 +67,7 @@ ul {
 
 ._1 {
   font-family: "Apple Garamond Italic";
+  font-size: 3.3vw;
 }
 
 .descripsh {
@@ -99,12 +100,6 @@ a {
   text-decoration: underline;
 }
 
-.detailsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .detailsContainer .fontsContainer ul li img {
   height: 80px;
 }
@@ -118,6 +113,10 @@ a {
 .font {
   cursor: ne-resize;
   text-decoration: underline;
+  text-decoration-color: #88a691;
+}
+.font:hover {
+  text-decoration-color: black;
 }
 
 .fontImage {
@@ -157,7 +156,6 @@ a {
 
 a {
   text-decoration-color: #88a691;
-  transition: all 0.3s ease;
 }
 a:hover {
   text-decoration-color: black;
