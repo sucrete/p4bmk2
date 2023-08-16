@@ -88,7 +88,13 @@ a {
 * {
   box-sizing: border-box;
 }
-
+hr {
+  border: none;
+  border-top: 3px solid black;
+  &:first-of-type {
+    margin-top: 30px;
+  }
+}
 .bigdiv {
   background-color: rgb(233, 231, 216);
   padding: 4vw;
@@ -99,15 +105,15 @@ a {
   .topBox {
     height: 90vh;
     .name {
-      float: left;
+      // float: left;
       height: 40px;
     }
     .barkFloat {
-      position: absolute;
-      &--1 {
-        top: 3.8vw;
-        right: 3vw;
-      }
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      padding-top: 30px;
+      margin-left: -10px;
     }
     .arrow {
       position: absolute;
@@ -141,8 +147,7 @@ ul {
     padding-bottom: 20px;
   }
   &--2 {
-    margin-top: 1rem;
-    padding: 4vw;
+    padding: 0 4vw 4vw;
   }
 }
 @media (max-width: 850px) {
@@ -249,12 +254,18 @@ a {
     }
   }
 }
-
+a {
+  text-decoration-color: #88a691;
+  transition: all 0.3s ease;
+  &:hover {
+    text-decoration-color: black;
+  }
+}
 .bottomdiv {
   background: rgb(233, 231, 216);
   min-height: 100vh;
   padding: 4vw;
-  padding-bottom: 5rem;
+  padding-bottom: 2vw;
   padding-top: 2vw;
   .recentwork {
     padding-bottom: 70px;

@@ -12,7 +12,7 @@ export default function Poly() {
           </ul>
         </div>
         <span className="caption">
-          Logo re-design for local business, <u>Pro Polyjacking</u>. Fonts →
+          Logo re-design for local business, <u>ProPolyjacking</u>. Fonts →
           Dharma
         </span>
       </div>

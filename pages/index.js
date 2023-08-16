@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 import styles from "../styles/Home.module.css";
@@ -85,13 +86,13 @@ export default function Home() {
               <Image
                 src="/namespace.svg"
                 alt="portfolio owner name logo"
-                width={342}
+                width={300}
                 height={70}
               />
             </span>
-
-            <div className="barkFloat barkFloat--1">
-              <Image src="/BarkPortDGreen.svg" alt="" width={300} height={79} />
+            <hr />
+            <div className="barkFloat">
+              <Image src="/BarkPortDGreen.svg" alt="" width={200} height={79} />
             </div>
 
             <div className="arrow">
@@ -108,15 +109,97 @@ export default function Home() {
           <Poly />
           <Handful />
           <Norman />
+          <hr />
         </section>
+        <hr />
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">
+            <div>Hi, Barkley! Thank you for looking over some of my work.</div>
+            <br />
             <div>
-              Hi, Barkley! :^&#41; I&apos;ve been looking forward to applying
-              for a position with you for a long time. If it is possible to know
-              someone by their influences, here are a few of mine →
-              architecture,
+              {" "}
+              If it{"'"}s possible to know someone by what they love, here are a
+              few of my favorite artists/designers/firms →{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Timothy Luke
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Porto Rocha
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Haley Wollens
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Thibaud Allie
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Nick Sherman
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  James Harren
+                </a>
+              </Link>
+              ,{" "}
+              <Link href="https://tmthyl.uk/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  Austin Lee
+                </a>
+              </Link>
+              ,{" "}
+              <Link
+                href="https://www.instagram.com/specialoffer.inc/?hl=en"
+                passHref
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  Special Offer, inc.
+                </a>
+              </Link>{" "}
+              {"("}helmed by Brent David Frealy{")"},{" "}
+              <Link
+                href="https://www.instagram.com/specialoffer.inc/?hl=en"
+                passHref
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  Daniel Sannwald
+                </a>
+              </Link>
+              ,{" "}
+              <Link
+                href="https://www.instagram.com/specialoffer.inc/?hl=en"
+                passHref
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  Daniel Swan
+                </a>
+              </Link>
+              ,{" "}
+              <Link
+                href="https://www.instagram.com/specialoffer.inc/?hl=en"
+                passHref
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  Wiissa
+                </a>
+              </Link>
+              , ...the list goes on and on.
             </div>
+            <br />
             <div className="skillsContainer subcontainer">
               <h3 className="bskillz">skillz</h3>
               <ul>
