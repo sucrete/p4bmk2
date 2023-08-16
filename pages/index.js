@@ -117,9 +117,7 @@ export default function Home() {
             <div>
               <span className="_1">Hi, Barkley!</span> Thank you for viewing
               some of my work. I{"'"}ve wanted to apply for a position with
-              Barkley when I had some work I was proud to present. A short{" "}
-              <span className="_1">About me </span>→ I{"'"}m nothing if not
-              detailed, eschew always on the hunt for affecting experiences.{" "}
+              Barkley when I had some work I was proud to present.
               <br />
               <br /> If it{"'"}s possible to know someone better by what they
               love, here are a few of my favorite artists/designers/firms →{" "}
@@ -242,7 +240,8 @@ export default function Home() {
               >
                 Nudge
               </span>
-              .
+              . My design style is to eschew the formulaic, seek out affecting
+              experiences, and, in the eye, details read.
             </div>
             <br />
             <div>
