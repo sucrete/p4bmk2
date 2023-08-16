@@ -134,6 +134,9 @@ a {
   text-transform: uppercase;
   line-height: 70%;
 }
+.fontImage div.roobert {
+  height: 50px;
+}
 .fontImage.skelter {
   height: 150px;
 }
@@ -172,6 +175,60 @@ a:hover {
   padding-bottom: 70px;
   color: black;
   visibility: hidden;
+}
+
+.contactCard {
+  border: 3px solid black;
+}
+.contactCard .contactTopBox {
+  padding: 3vw 3vw 9vw;
+}
+.contactCard .contactTopBox .contactPull {
+  font-family: "Melody Regular";
+  font-size: 11px;
+}
+.contactCard .contactTopBox .contactName {
+  font-family: "Saans Heavy";
+  font-size: 3vw;
+}
+.contactCard .contactBottomBox {
+  border-top: 3px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.contactCard .contactBottomBox div {
+  padding: 2.5vw 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 3px solid black;
+}
+.contactCard .contactBottomBox div:last-of-type {
+  border: none;
+}
+.contactCard .contactBottomBox div.resume {
+  background: #ffdb58;
+}
+.contactCard .contactBottomBox div.email {
+  background: #ee562f;
+}
+.contactCard .contactBottomBox div.tel {
+  background: black;
+}
+.contactCard .contactBottomBox div.tel a {
+  color: #e9e7d8;
+  text-decoration-color: #e9e7d8;
+}
+.contactCard .contactBottomBox div.LinkedIn {
+  background: #88a691;
+}
+.contactCard .contactBottomBox div a {
+  font-family: "Saans Med";
+  font-size: 1.5vw;
+  line-height: 90%;
+  text-align: center;
+  text-decoration-color: black;
 }
 
 .pane {

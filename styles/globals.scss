@@ -216,8 +216,7 @@ a {
   }
 
   & div.roobert {
-    // height: 50px;
-    // width: 30px;
+    height: 50px;
   }
 
   &.skelter {
@@ -273,7 +272,59 @@ a {
     visibility: hidden;
   }
 }
-
+.contactCard {
+  border: 3px solid black;
+  .contactTopBox {
+    padding: 3vw 3vw 9vw;
+    .contactPull {
+      font-family: "Melody Regular";
+      font-size: 11px;
+    }
+    .contactName {
+      font-family: "Saans Heavy";
+      font-size: 3vw;
+    }
+  }
+  .contactBottomBox {
+    border-top: 3px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    div {
+      padding: 2.5vw 3vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-right: 3px solid black;
+      &:last-of-type {
+        border: none;
+      }
+      &.resume {
+        background: #ffdb58;
+      }
+      &.email {
+        background: #ee562f;
+      }
+      &.tel {
+        background: black;
+        a {
+          color: #e9e7d8;
+          text-decoration-color: #e9e7d8;
+        }
+      }
+      &.LinkedIn {
+        background: #88a691;
+      }
+      a {
+        font-family: "Saans Med";
+        font-size: 1.5vw;
+        line-height: 90%;
+        text-align: center;
+        text-decoration-color: black;
+      }
+    }
+  }
+}
 .pane {
   width: 100%;
   height: 69.5vw;

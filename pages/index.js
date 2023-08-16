@@ -116,8 +116,8 @@ export default function Home() {
           <div className="detailsContainer">
             <div>
               <span className="_1">Hi, Barkley!</span> Thank you for viewing
-              some of my work. I{"'"}ve wanted to apply for a position with
-              Barkley when I had some work I was proud to present.
+              some of my work. I{"'"}ve always wanted to apply for a position
+              with Barkley when I had some work I was proud to present.
               <br />
               <br /> If it{"'"}s possible to know someone better by what they
               love, here are a few of my favorite artists/designers/firms →{" "}
@@ -240,8 +240,8 @@ export default function Home() {
               >
                 Nudge
               </span>
-              . My design style is to eschew the formulaic, seek out affecting
-              experiences, and, in the eye, details read.
+              . My design style → eschew the formulaic, seek out affecting
+              experiences, and details {"'"}read{"'"}.
             </div>
             <br />
             <div>
@@ -253,11 +253,11 @@ export default function Home() {
             <br />
             <div>
               <span className="_1">Tech</span> → Illustrator, Photoshop, Figma,
-              VS Code
+              VS Code, After Effects
             </div>
             <br />
 
-            <div className="businessContainer subcontainer">
+            {/* <div className="businessContainer subcontainer">
               <h3 className="bskillz">business</h3>
               <ul>
                 <li>
@@ -283,6 +283,45 @@ export default function Home() {
                   <a href="tel:5738202616">(573) 820-2616</a>
                 </li>
               </ul>
+            </div> */}
+            <div className="contactCard">
+              <div className="contactTopBox">
+                <div className="contactPull">CONTACT</div>
+                <div className="contactName">Will Andrée</div>
+              </div>
+              <div className="contactBottomBox">
+                <div className="resume">
+                  <Link href="/resume.pdf" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      Resumé
+                    </a>
+                  </Link>
+                </div>
+                <div className="email">
+                  <Link href="mailto:williamandree@gmail.com" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      williamandree@gmail.com
+                    </a>
+                  </Link>
+                </div>
+                <div className="tel">
+                  <Link href="tel:15738202616" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      {"("}573{") "}820-2616
+                    </a>
+                  </Link>
+                </div>
+                <div className="LinkedIn">
+                  <Link
+                    href="https://www.linkedin.com/in/william-andree/"
+                    passHref
+                  >
+                    <a target="_blank" rel="noopener noreferrer">
+                      LinkedIn
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
