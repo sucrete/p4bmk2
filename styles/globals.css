@@ -43,7 +43,6 @@ a {
   flex-direction: row;
   justify-content: end;
   padding-top: 30px;
-  margin-left: -10px;
   max-width: 92vw;
 }
 .bigdiv .topBox .arrow {

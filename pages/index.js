@@ -93,7 +93,7 @@ export default function Home() {
             <hr />
             <div className="barkFloat">
               <Image
-                className="barkFloatImagec"
+                className="barkFloatImage"
                 src="/BarkPortDGreen.svg"
                 alt=""
                 width={506}
