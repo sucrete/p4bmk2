@@ -122,8 +122,7 @@ export default function Home() {
           <div className="detailsContainer">
             <div>
               <span className="_1">Hi, Barkley!</span> Thank you for viewing
-              some of my work. I{"'"}ve always wanted to apply for a position
-              with Barkley when I had some work I was proud to present. If it
+              some of my work. If it
               {"'"}s possible to know someone by what they love, here are a few
               of my favorite artists/designers/firms →{" "}
               <Link href="https://tmthyl.uk/" passHref>
