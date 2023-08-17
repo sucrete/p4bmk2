@@ -92,7 +92,13 @@ export default function Home() {
             </span>
             <hr />
             <div className="barkFloat">
-              <Image src="/BarkPortDGreen.svg" alt="" width={200} height={79} />
+              <Image
+                className="barkFloatImagec"
+                src="/BarkPortDGreen.svg"
+                alt=""
+                width={506}
+                height={200}
+              />
             </div>
 
             <div className="arrow">
@@ -245,8 +251,8 @@ export default function Home() {
             <div>
               <span className="_1">Skills</span> → Graphic Design, User
               Experience Design, Logo Design, Trend Forecasting, Advanced
-              Prototyping, Web Development {"("}Javascript/HTML/CSS/Sass, React,
-              Wordpress Development{")"}
+              Prototyping, Web Development {"("}
+              Javascript/HTML/CSS/Sass, React, Wordpress Development{")"}
             </div>
             <br />
             <div>

@@ -88,13 +88,7 @@ a {
 * {
   box-sizing: border-box;
 }
-hr {
-  border: none;
-  border-top: 3px solid black;
-  &:first-of-type {
-    margin-top: 30px;
-  }
-}
+
 .bigdiv {
   background-color: rgb(233, 231, 216);
   padding: 4vw;
@@ -103,10 +97,16 @@ hr {
     color: black;
   }
   .topBox {
-    height: 90vh;
+    height: 96vh;
     .name {
-      // float: left;
       height: 40px;
+    }
+    hr {
+      border: none;
+      border-top: 3px solid black;
+      &:first-of-type {
+        margin-top: 30px;
+      }
     }
     .barkFloat {
       display: flex;
@@ -114,6 +114,7 @@ hr {
       justify-content: end;
       padding-top: 30px;
       margin-left: -10px;
+      max-width: 92vw;
     }
     .arrow {
       position: absolute;
