@@ -117,10 +117,9 @@ export default function Home() {
             <div>
               <span className="_1">Hi, Barkley!</span> Thank you for viewing
               some of my work. I{"'"}ve always wanted to apply for a position
-              with Barkley when I had some work I was proud to present.
-              <br />
-              <br /> If it{"'"}s possible to know someone better by what they
-              love, here are a few of my favorite artists/designers/firms →{" "}
+              with Barkley when I had some work I was proud to present. If it
+              {"'"}s possible to know someone by what they love, here are a few
+              of my favorite artists/designers/firms →{" "}
               <Link href="https://tmthyl.uk/" passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   Timothy Luke
@@ -192,7 +191,7 @@ export default function Home() {
                   Wiissa
                 </a>
               </Link>
-              , ...the list goes on. Fonts I love →{" "}
+              , ...the list is too long. Fonts I love →{" "}
               <span
                 className="roobert font"
                 onMouseEnter={index.roobert.yay}
@@ -240,8 +239,7 @@ export default function Home() {
               >
                 Nudge
               </span>
-              . My design style → eschew the formulaic, seek out affecting
-              experiences, and details {"'"}read{"'"}.
+              . My design credo → {"'"}Eschew the formulaic.{"'"}
             </div>
             <br />
             <div>
