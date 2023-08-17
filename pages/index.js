@@ -94,7 +94,7 @@ export default function Home() {
             <div className="barkFloat">
               <Image
                 className="barkFloatImage"
-                src="/BarkPortDGreen.svg"
+                src="/BarkPort.svg"
                 alt=""
                 width={506}
                 height={200}

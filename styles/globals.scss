@@ -357,7 +357,14 @@ a {
     font-family: "Apple Garamond";
   }
 }
-
+@media (max-width: 750px) {
+  .pane {
+    margin-top: 8vw !important;
+    &:last-of-type {
+      margin-bottom: 5vw;
+    }
+  }
+}
 .liImage:after {
   font-family: "Melody Regular";
   letter-spacing: 3px;
