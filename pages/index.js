@@ -252,7 +252,7 @@ export default function Home() {
               <span className="_1">Skills</span> → Graphic Design, User
               Experience Design, Logo Design, Trend Forecasting, Advanced
               Prototyping, Web Development {"("}
-              Javascript/HTML/CSS/Sass, React, Wordpress Development{")"}
+              JavaScript/HTML/CSS/Sass, React, Wordpress Development{")"}
             </div>
             <br />
             <div>
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
               <div className="contactBottomBox">
                 <div className="resume">
-                  <Link href="/resume.pdf" passHref>
+                  <Link href="/Resume.pdf" passHref>
                     <a target="_blank" rel="noopener noreferrer">
                       Resumé
                     </a>
