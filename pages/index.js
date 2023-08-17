@@ -86,8 +86,8 @@ export default function Home() {
               <Image
                 src="/namespace.svg"
                 alt="portfolio owner name logo"
-                width={300}
-                height={70}
+                width={414}
+                height={97}
               />
             </span>
             <hr />
