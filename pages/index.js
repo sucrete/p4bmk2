@@ -105,7 +105,6 @@ export default function Home() {
               <Image src="/arrow.png" alt="" width={200} height={200} />
             </div>
           </div>
-          <div className="descripsh"></div>
         </div>
         <section className="bottomdiv">
           <Calvin />
@@ -117,14 +116,13 @@ export default function Home() {
           <Norman />
           <hr />
         </section>
-        <hr />
-        <div className="descripsh descripsh--2">
+        <div className="descripsh">
           <div className="detailsContainer">
             <div>
               <span className="_1">Skills</span> → Graphic Design, User
               Experience Design, Logo Design, Trend Forecasting, Advanced
               Prototyping, Web Development {"("}
-              JavaScript/HTML/CSS/Sass, React, Wordpress Development{")"}
+              JavaScript, HTML, CSS, Sass, React, Wordpress Development{")"}
             </div>
             <br />
             <div>
@@ -256,11 +254,7 @@ export default function Home() {
               >
                 Nudge
               </span>
-              . It{"'"}s difficult to distill my approach to design but my
-              guiding credo - that I had not put into words until writing this -
-              is
-              {" '"}give beauty, novelty, or a ratio of both{"'"}. Thank you,
-              again.
+              . Thank you, again!
             </div>
             <br />
             {/* <div className="businessContainer subcontainer">

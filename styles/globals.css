@@ -75,17 +75,43 @@ ul {
   font-size: 3vw;
   text-align: justify;
   color: black;
+  padding: 0 4vw 4vw;
 }
 .descripsh:first-child {
   padding-bottom: 20px;
 }
-.descripsh--2 {
-  padding: 0 4vw 4vw;
-}
 
 @media (max-width: 850px) {
-  .descripsh .name {
-    padding-right: 0px;
+  .descripsh {
+    font-size: 5vw;
+  }
+  ._1 {
+    font-size: 5.2vw;
+  }
+  .contactCard .contactTopBox div.contactName {
+    font-size: 5vw;
+  }
+  div.contactCard .contactBottomBox div a {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 585px) {
+  div.contactCard div.contactBottomBox {
+    display: block;
+  }
+  div.contactCard .contactTopBox div.contactPull {
+    font-size: 9px;
+  }
+  div.contactCard div.contactTopBox {
+    padding-bottom: 19vw;
+  }
+  div.contactCard div.contactBottomBox div {
+    border-bottom: 3px solid black;
+    border-right: none;
+    padding: 5vw;
+  }
+  div.contactCard div.contactBottomBox div a {
+    font-size: 4vw;
   }
 }
 .barkport {
@@ -113,7 +139,6 @@ a {
 .font {
   cursor: ne-resize;
   text-decoration: underline;
-  text-decoration-color: #88a691;
 }
 .font:hover {
   text-decoration-color: black;
@@ -157,9 +182,6 @@ a {
   opacity: 1;
 }
 
-a {
-  text-decoration-color: #88a691;
-}
 a:hover {
   text-decoration-color: black;
 }
