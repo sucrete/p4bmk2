@@ -17,6 +17,14 @@ a {
   box-sizing: border-box;
 }
 
+hr {
+  border: none;
+  border-top: 3px solid black;
+}
+hr:first-of-type {
+  margin-top: 30px;
+}
+
 .bigdiv {
   background-color: rgb(233, 231, 216);
   padding: 4vw;
@@ -30,13 +38,6 @@ a {
 }
 .bigdiv .topBox .name {
   height: 40px;
-}
-.bigdiv .topBox hr {
-  border: none;
-  border-top: 3px solid black;
-}
-.bigdiv .topBox hr:first-of-type {
-  margin-top: 30px;
 }
 .bigdiv .topBox .barkFloat {
   display: flex;
@@ -262,10 +263,11 @@ a:hover {
 
 @media (max-width: 750px) {
   .pane {
-    margin-top: 8vw !important;
+    margin-top: 5vw !important;
+    height: unset;
   }
-  .pane:last-of-type {
-    margin-bottom: 5vw;
+  .pane .imagesContainer {
+    height: 69.5vw;
   }
 }
 .liImage:after {

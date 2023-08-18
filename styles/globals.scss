@@ -88,6 +88,13 @@ a {
 * {
   box-sizing: border-box;
 }
+hr {
+  border: none;
+  border-top: 3px solid black;
+  &:first-of-type {
+    margin-top: 30px;
+  }
+}
 
 .bigdiv {
   background-color: rgb(233, 231, 216);
@@ -101,13 +108,7 @@ a {
     .name {
       height: 40px;
     }
-    hr {
-      border: none;
-      border-top: 3px solid black;
-      &:first-of-type {
-        margin-top: 30px;
-      }
-    }
+
     .barkFloat {
       display: flex;
       flex-direction: row;
@@ -359,10 +360,14 @@ a {
 }
 @media (max-width: 750px) {
   .pane {
-    margin-top: 8vw !important;
-    &:last-of-type {
-      margin-bottom: 5vw;
+    margin-top: 5vw !important;
+    height: unset;
+    .imagesContainer {
+      height: 69.5vw;
     }
+    // &.votr {
+    //   margin-top: 14vw !important;
+    // }
   }
 }
 .liImage:after {

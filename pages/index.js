@@ -121,6 +121,18 @@ export default function Home() {
         <div className="descripsh descripsh--2">
           <div className="detailsContainer">
             <div>
+              <span className="_1">Skills</span> → Graphic Design, User
+              Experience Design, Logo Design, Trend Forecasting, Advanced
+              Prototyping, Web Development {"("}
+              JavaScript/HTML/CSS/Sass, React, Wordpress Development{")"}
+            </div>
+            <br />
+            <div>
+              <span className="_1">Tech</span> → Illustrator, Photoshop, Figma,
+              VS Code, After Effects
+            </div>
+            <br />
+            <div>
               <span className="_1">Hi, Barkley!</span> Thank you for viewing
               some of my work. If it
               {"'"}s possible to know someone by what they love, here are a few
@@ -244,22 +256,13 @@ export default function Home() {
               >
                 Nudge
               </span>
-              . My design credo → {"'"}Eschew the formulaic.{"'"}
+              . It{"'"}s difficult to distill my approach to design but my
+              guiding credo - that I had not put into words until writing this -
+              is
+              {" '"}give beauty, novelty, or a ratio of both{"'"}. Thank you,
+              again.
             </div>
             <br />
-            <div>
-              <span className="_1">Skills</span> → Graphic Design, User
-              Experience Design, Logo Design, Trend Forecasting, Advanced
-              Prototyping, Web Development {"("}
-              JavaScript/HTML/CSS/Sass, React, Wordpress Development{")"}
-            </div>
-            <br />
-            <div>
-              <span className="_1">Tech</span> → Illustrator, Photoshop, Figma,
-              VS Code, After Effects
-            </div>
-            <br />
-
             {/* <div className="businessContainer subcontainer">
               <h3 className="bskillz">business</h3>
               <ul>
