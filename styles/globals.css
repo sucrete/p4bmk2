@@ -478,57 +478,10 @@ a:hover {
   content: "3/3";
 }
 
-.handful .imagesContainer ul .liImage--0 {
-  animation: xfade--hand 15.57s 0s infinite;
-}
-.handful .imagesContainer ul .liImage--1 {
-  animation: sixNine--hand 0.69s 4.5s forwards, xfade--hand 15.57s 5.19s infinite;
-}
-.handful .imagesContainer ul .liImage--2 {
-  animation: sixNine--hand 0.69s 9.69s forwards, xfade--hand 15.57s 10.38s infinite;
-}
-@keyframes xfade--hand {
-  0% {
-    opacity: 1;
-  }
-  28.901734104% {
-    opacity: 1;
-  }
-  33.3333333333% {
-    opacity: 0;
-  }
-  95.5684007707% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes sixNine--hand {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.handful .imagesContainer ul li img {
-  border-radius: 10px;
-}
-.handful .imagesContainer ul li.liImage--0:after {
-  content: "1/3";
-}
-.handful .imagesContainer ul li.liImage--1:after {
-  content: "2/3";
-}
-.handful .imagesContainer ul li.liImage--2:after {
-  content: "3/3";
-}
-
-.imagesContainer ul .liImage--0 {
+.storycorder .imagesContainer ul .liImage--0 {
   animation: xfade--story 10.38s 0s infinite;
 }
-.imagesContainer ul .liImage--1 {
+.storycorder .imagesContainer ul .liImage--1 {
   animation: sixNine--story 0.69s 4.5s forwards, xfade--story 10.38s 5.19s infinite;
 }
 @keyframes xfade--story {
@@ -556,13 +509,54 @@ a:hover {
     opacity: 1;
   }
 }
-.imagesContainer ul li img {
+.storycorder .imagesContainer ul li img {
   border-radius: 10px;
 }
-.imagesContainer ul li.liImage--0:after {
+.storycorder .imagesContainer ul li.liImage--0:after {
   content: "1/2";
 }
-.imagesContainer ul li.liImage--1:after {
+.storycorder .imagesContainer ul li.liImage--1:after {
+  content: "2/2";
+}
+
+.seqseq .imagesContainer ul .liImage--0 {
+  animation: xfade--seqseq 10.38s 0s infinite;
+}
+.seqseq .imagesContainer ul .liImage--1 {
+  animation: sixNine--seqseq 0.69s 4.5s forwards, xfade--seqseq 10.38s 5.19s infinite;
+}
+@keyframes xfade--seqseq {
+  0% {
+    opacity: 1;
+  }
+  43.3526011561% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  93.3526011561% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sixNine--seqseq {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.seqseq .imagesContainer ul li img {
+  border-radius: 10px;
+}
+.seqseq .imagesContainer ul li.liImage--0:after {
+  content: "1/2";
+}
+.seqseq .imagesContainer ul li.liImage--1:after {
   content: "2/2";
 }
 

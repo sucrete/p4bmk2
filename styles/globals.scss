@@ -499,10 +499,11 @@ a {
     }
   }
 }
-.handful {
+
+.storycorder {
   .imagesContainer {
     ul {
-      @include slideShow(2, "hand");
+      @include slideShow(1, "story");
 
       li {
         img {
@@ -512,37 +513,35 @@ a {
 
       li {
         &.liImage--0:after {
-          content: "1/3";
+          content: "1/2";
         }
 
         &.liImage--1:after {
-          content: "2/3";
-        }
-
-        &.liImage--2:after {
-          content: "3/3";
+          content: "2/2";
         }
       }
     }
   }
 }
-.imagesContainer {
-  ul {
-    @include slideShow(1, "story");
+.seqseq {
+  .imagesContainer {
+    ul {
+      @include slideShow(1, "seqseq");
 
-    li {
-      img {
-        border-radius: 10px;
-      }
-    }
-
-    li {
-      &.liImage--0:after {
-        content: "1/2";
+      li {
+        img {
+          border-radius: 10px;
+        }
       }
 
-      &.liImage--1:after {
-        content: "2/2";
+      li {
+        &.liImage--0:after {
+          content: "1/2";
+        }
+
+        &.liImage--1:after {
+          content: "2/2";
+        }
       }
     }
   }

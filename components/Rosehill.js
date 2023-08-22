@@ -41,7 +41,7 @@ export default function Rosehill() {
           <ul>{imageSlides}</ul>
         </div>
         <span className="caption">
-          Work from a larger logo and website redesign for{" "}
+          Work from a larger logo and website re-design for{" "}
           <u>Rosehill Gardens</u>
         </span>
       </div>

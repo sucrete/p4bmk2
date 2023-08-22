@@ -11,8 +11,9 @@ import CnC from "../components/CnC";
 import Poly from "../components/Poly";
 import Rosehill from "../components/Rosehill";
 import Norman from "../components/Norman";
-import Handful from "../components/Handful";
+import Dump from "../components/Dump";
 import Storycorder from "../components/Storycorder";
+import Sequoia from "../components/Sequoia";
 
 export default function Home() {
   const [isShownForma, setIsShownForma] = useState(false);
@@ -111,10 +112,11 @@ export default function Home() {
           <Calvin />
           <CnC />
           <Votr />
+          <Sequoia />
           <Rosehill />
           <Poly />
           <Storycorder />
-          <Handful />
+          <Dump />
           <Norman />
           <hr />
         </section>
