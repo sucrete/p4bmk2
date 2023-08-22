@@ -14,7 +14,7 @@ export default function Dump() {
           />
         </div>
         <span className="caption">
-          Logo for an internet art repository called <u>dumpTRUCK</u>
+          Logo for internet art repository called <u>dumpTRUCK</u>
         </span>
       </div>
     </>
