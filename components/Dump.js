@@ -11,10 +11,11 @@ export default function Dump() {
             alt=""
             height={1350}
             width={1800}
+            style={{ borderRadius: "10px" }}
           />
         </div>
         <span className="caption">
-          Logo for internet art repository called <u>dumpTRUCK</u>
+          Logo for internet art repository, <u>dumpTRUCK</u>
         </span>
       </div>
     </>
