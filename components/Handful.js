@@ -18,7 +18,7 @@ const slides = [
   />,
   <Image key="fourth" src="/Sequoia.png" alt="" height={1350} width={1800} />,
   <Image key="fifth" src="/Best.png" alt="" height={1350} width={1800} />,
-  <Image key="sixth" src="/Bennett.png" alt="" height={1350} width={1800} />,
+  // <Image key="sixth" src="/Bennett.png" alt="" height={1350} width={1800} />,
 ];
 
 const imageSlides = slides.map((slide, index) => {

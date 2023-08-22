@@ -479,34 +479,31 @@ a:hover {
 }
 
 .handful .imagesContainer ul .liImage--0 {
-  animation: xfade--hand 31.14s 0s infinite;
+  animation: xfade--hand 25.95s 0s infinite;
 }
 .handful .imagesContainer ul .liImage--1 {
-  animation: sixNine--hand 0.69s 4.5s forwards, xfade--hand 31.14s 5.19s infinite;
+  animation: sixNine--hand 0.69s 4.5s forwards, xfade--hand 25.95s 5.19s infinite;
 }
 .handful .imagesContainer ul .liImage--2 {
-  animation: sixNine--hand 0.69s 9.69s forwards, xfade--hand 31.14s 10.38s infinite;
+  animation: sixNine--hand 0.69s 9.69s forwards, xfade--hand 25.95s 10.38s infinite;
 }
 .handful .imagesContainer ul .liImage--3 {
-  animation: sixNine--hand 0.69s 14.88s forwards, xfade--hand 31.14s 15.57s infinite;
+  animation: sixNine--hand 0.69s 14.88s forwards, xfade--hand 25.95s 15.57s infinite;
 }
 .handful .imagesContainer ul .liImage--4 {
-  animation: sixNine--hand 0.69s 20.07s forwards, xfade--hand 31.14s 20.76s infinite;
-}
-.handful .imagesContainer ul .liImage--5 {
-  animation: sixNine--hand 0.69s 25.26s forwards, xfade--hand 31.14s 25.95s infinite;
+  animation: sixNine--hand 0.69s 20.07s forwards, xfade--hand 25.95s 20.76s infinite;
 }
 @keyframes xfade--hand {
   0% {
     opacity: 1;
   }
-  14.450867052% {
+  17.3410404624% {
     opacity: 1;
   }
-  16.6666666667% {
+  20% {
     opacity: 0;
   }
-  97.7842003854% {
+  97.3410404624% {
     opacity: 0;
   }
   100% {
@@ -525,19 +522,19 @@ a:hover {
   border-radius: 10px;
 }
 .handful .imagesContainer ul li.liImage--0:after {
-  content: "1/6";
+  content: "1/5";
 }
 .handful .imagesContainer ul li.liImage--1:after {
-  content: "2/6";
+  content: "2/5";
 }
 .handful .imagesContainer ul li.liImage--2:after {
-  content: "3/6";
+  content: "3/5";
 }
 .handful .imagesContainer ul li.liImage--3:after {
-  content: "4/6";
+  content: "4/5";
 }
 .handful .imagesContainer ul li.liImage--4:after {
-  content: "5/6";
+  content: "5/5";
 }
 .handful .imagesContainer ul li.liImage--5:after {
   content: "6/6";
