@@ -12,6 +12,7 @@ import Poly from "../components/Poly";
 import Rosehill from "../components/Rosehill";
 import Norman from "../components/Norman";
 import Handful from "../components/Handful";
+import Storycorder from "../components/Storycorder";
 
 export default function Home() {
   const [isShownForma, setIsShownForma] = useState(false);
@@ -112,6 +113,7 @@ export default function Home() {
           <Votr />
           <Rosehill />
           <Poly />
+          <Storycorder />
           <Handful />
           <Norman />
           <hr />

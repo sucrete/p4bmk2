@@ -502,7 +502,7 @@ a {
 .handful {
   .imagesContainer {
     ul {
-      @include slideShow(4, "hand");
+      @include slideShow(2, "hand");
 
       li {
         img {
@@ -512,25 +512,37 @@ a {
 
       li {
         &.liImage--0:after {
-          content: "1/5";
+          content: "1/3";
         }
 
         &.liImage--1:after {
-          content: "2/5";
+          content: "2/3";
         }
 
         &.liImage--2:after {
-          content: "3/5";
+          content: "3/3";
         }
-        &.liImage--3:after {
-          content: "4/5";
-        }
-        &.liImage--4:after {
-          content: "5/5";
-        }
-        &.liImage--5:after {
-          content: "6/6";
-        }
+      }
+    }
+  }
+}
+.imagesContainer {
+  ul {
+    @include slideShow(1, "story");
+
+    li {
+      img {
+        border-radius: 10px;
+      }
+    }
+
+    li {
+      &.liImage--0:after {
+        content: "1/2";
+      }
+
+      &.liImage--1:after {
+        content: "2/2";
       }
     }
   }
